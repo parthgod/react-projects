@@ -1,0 +1,48 @@
+body {
+  font-family: 'Josefin Sans';
+  background-color: #FFFAFB;
+  background-color: #222222;
+  color: white;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.category-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+  border: none;
+  padding: 7px 15px;
+  transition: all 0.3s ease;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+  color: #FF5733;
+  width: 9rem;
+  height: 5rem;
+}
+
+.category-btn:hover,
+.selected-btn {
+  background-color: #FF5733;
+  color: white
+}
+
+.category-btn:hover span {
+  color: white
+}
+
+.card-hover:hover {
+  background-color: #e16e55;
+}
